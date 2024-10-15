@@ -13,3 +13,10 @@ class Ventana:
     PRECIO_ESMERILADO = 5.20
     PRECIO_CHAPA = 16200
     PRECIO_ESQUINA = 4310
+    
+  def __init__(self, ancho, alto, estilo, vidrio, esmerilado=False):
+        self.ancho = ancho
+        self.alto = alto
+        self.estilo = estilo
+        self.vidrio = vidrio
+        self.esmerilado = esmerilado
