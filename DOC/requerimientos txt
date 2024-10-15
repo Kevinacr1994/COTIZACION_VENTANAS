@@ -1,0 +1,43 @@
+Requerimientos Funcionales
+
+Ingreso de Datos:
+
+El sistema debe permitir al usuario ingresar las medidas de la ventana (ancho y alto) desde la interfaz.
+Se debe poder elegir el estilo de ventana (O, XO, OXXO, etc.).
+Se debe seleccionar el tipo de vidrio (Transparente, Bronce, Azul).
+El usuario podrá marcar si el vidrio es esmerilado a través de un checkbox.
+Cálculo de Costos:
+
+El sistema calculará el costo total basado en dimensiones, estilo, vidrio, y acabado de aluminio.
+El costo del vidrio será según su área (ancho x alto).
+El aluminio se calculará por el perímetro de la ventana.
+Si la ventana tiene partes móviles, se agregarán los costos de chapas y esquinas.
+Si se elige vidrio esmerilado, se añadirá un costo extra.
+Visualización de Costos:
+
+El costo total debe mostrarse en la interfaz.
+Se podrá ver un historial de cotizaciones durante la sesión.
+Validación de Datos:
+
+Los campos de ancho y alto deben ser válidos y no estar vacíos.
+Si falta información o es incorrecta, se debe mostrar un error.
+Historial de Cotizaciones:
+
+El sistema guardará y mostrará un historial de cotizaciones.
+Requerimientos No Funcionales
+
+Interfaz:
+
+La GUI debe ser clara e intuitiva usando Tkinter.
+Eficiencia:
+
+Los cálculos deben ser rápidos y permitir hasta 100 cotizaciones por sesión sin afectar el rendimiento.
+Portabilidad:
+
+El sistema debe ser compatible con Windows, macOS y Linux.
+Mantenibilidad:
+
+El código debe seguir las mejores prácticas, ser modular y cumplir con PEP-8.
+Seguridad:
+
+Se debe validar correctamente la entrada del usuario para evitar errores.
